@@ -32,16 +32,6 @@ def turtle_screen():
     screen.setup(width, height)  # Makes the screen with the dimensions
     screen.title('Turtle Racing Simulator')
 
-    # # Creating finish line
-    # finish = turtle.Turtle()
-    # finish.color('black')
-    # finish.shape('arrow')
-    # finish.speed(0)
-    # finish.penup()
-    # finish.setpos(-width//2, height//2 - 20)
-    # finish.penup()
-    # finish.forward(width)
-
 
 def create_turtles(colours):
     """Creates the turtles on the screen and positions them at the bottom
